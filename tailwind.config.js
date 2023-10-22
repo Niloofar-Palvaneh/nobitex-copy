@@ -21,6 +21,12 @@ module.exports = {
 
       'sm': {'max': '639px'},
       // => @media (max-width: 639px) { ... }
+    },
+    extend:{
+      colors: {
+        'main' : '#784ed1',
+        'mainB' : '#6d3fd0',
+      }
     }
   },
   plugins: [],
