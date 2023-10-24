@@ -1,10 +1,11 @@
 import Button from "../button/Button"
+import ShopTable from "../shopTable/ShopTable"
 
 export default function Header() {
     return (
         <>
-            <div className="bg-[url('/bg-header.svg')] flex flex-col gap-80">
-                <div className="flex flex-col gap-12 items-center justify-center">
+            <div className="bg-[url('/bg-header.svg')] flex flex-col gap-80 bg-top bg-no-repeat">
+                <div className="flex flex-col gap-8 items-center justify-center">
                     <div className="flex flex-col gap-4 items-center justify-center w-full pt-24">
                         <h1 className="font-bold text-3xl">
                             خرید و فروش امن بیت‌کوین و ارزهای دیجیتال
@@ -29,7 +30,7 @@ export default function Header() {
                         </button>
                     </div>
                 </div>
-                hhh
+                <ShopTable/>
             </div>
         </>
     )
